@@ -1,0 +1,23 @@
+.one {
+    background-color: rgb(200, 200, 200);
+}
+.two{
+    color: blue;
+
+}
+.bnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+div{
+    background-color: red;
+}
+.else-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: blueviolet;
+  }

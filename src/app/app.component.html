@@ -1,0 +1,72 @@
+<!-- 
+<div [ngClass]="'one'">
+  Learning NgClass
+</div>
+
+<div [ngClass]="[clsName, clsName2]">
+  Learning NgClass
+</div>
+
+
+<div [ngClass]="{'one':false, 'two':true}">
+  Learning NgClass with Expressions
+</div> -->
+
+<!-- <div [ngStyle]="{'color':colorVal}">
+  Learning Angular is fun !
+</div>
+<a [ngStyle]="{'color':colorVal, 'background-color':'#fffccc'}" href="#">
+  Learning Angular is fun !
+</a> -->
+
+
+
+
+<!-- <h4>ngFor Examples</h4>
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">User Id</th>
+      <th scope="col">First Name</th>
+      <th scope="col">Index</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Even</th>
+      <th scope="col">Odd</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor ="let user of users; index as i;first as f;last as l; even as e; odd as o">
+    <td>{{user.userId}}</td>
+    <td>{{user.firstName}}</td>
+    <td>{{i}}</td>
+    <td>{{f}}</td>
+    <td>{{l}}</td>
+    <td>{{e}}</td>
+    <td>{{o}}</td>
+
+    </tr>
+  </tbody>
+</table> -->
+
+
+<h4>ngSwitch Example</h4>
+<div [ngSwitch]="switchValue"> 
+  <div *ngSwitchCase="'one'">Value passed is 1</div>
+  <div *ngSwitchCase="'two'">Value passed is 2</div>
+  <div *ngSwitchCase="'three'">Value passed is 3</div>
+  <div *ngSwitchCase="4">Value passed is 4</div>
+  <div *ngSwitchCase="5">Value passed is 5</div>
+  <div *ngSwitchDefault>This is the default value</div>
+</div>
+
+<!-- ngIf -->
+<!-- <button (click)="btnshow()" ngModel>Show Message</button>
+
+<div *ngIf="showMsg; then showThenMsg; else showElseMsg" ngModel class="bnt">If Statement</div>
+<ng-template  #showThenMsg><label class='else-message'>Showing Then message</label></ng-template>
+<ng-template  #showElseMsg><label class='else-message'>Showing else message</label></ng-template>
+<div *ngIf="showMsg" ngModel class="bnt">Show Message</div> -->
+
+
+
