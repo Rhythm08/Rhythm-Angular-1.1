@@ -49,7 +49,7 @@
   </tbody>
 </table> -->
 
-
+<!-- 
 <h4>ngSwitch Example</h4>
 <div [ngSwitch]="switchValue"> 
   <div *ngSwitchCase="'one'">Value passed is 1</div>
@@ -58,7 +58,7 @@
   <div *ngSwitchCase="4">Value passed is 4</div>
   <div *ngSwitchCase="5">Value passed is 5</div>
   <div *ngSwitchDefault>This is the default value</div>
-</div>
+</div> -->
 
 <!-- ngIf -->
 <!-- <button (click)="btnshow()" ngModel>Show Message</button>
@@ -69,4 +69,28 @@
 <div *ngIf="showMsg" ngModel class="bnt">Show Message</div> -->
 
 
+<!-- <app-pipes></app-pipes> -->
+
+
+<p appHightlight>appHightlight me!</p>
+
+<h1>My First Attribute Directive</h1>
+
+<h2>Pick a Highlight Color</h2>
+<div>
+  <input type="radio" name="colors" (click)="color= 'lightgreen'">Green
+  <input type="radio" name="colors" (click)="color= 'yellow'">yellow
+  <input type="radio" name="colors" (click)="color= 'cyan'">Cyan
+
+</div>
+<p [appHightlight]="color">HighLight Me</p>
+<p [appHightlight]="color" defaultColor="violet">
+  Highlight me too!
+</p>
+
+<p>Use ngNonBindable to stop evaluation.</p>
+<p ngNonBindable>This should not evaluate: {{1+1}}</p>
+
+<p>Without ngNonBindable</p>
+<p>This is the real value {{1+1}} without ngNonBindable</p>
 

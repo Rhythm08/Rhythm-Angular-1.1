@@ -1,0 +1,38 @@
+<div>
+    {{user.firstName |lowercase}}, {{user.lastName| uppercase}}
+</div>
+
+<div>{{user.DOB |date :'short'}}-->Short</div>
+<div>{{user.DOB |date :'medium'}} --> Medium</div>
+<div>{{user.DOB |date :'long'}} --> Long</div>
+<div>{{user.DOB |date :'full'}} --> Full</div>
+<div>{{user.DOB |date :'shortData'}} --> ShortDate</div>
+<div>{{user.DOB |date :'mediumDate'}} --> MediumDate</div>
+<div>{{user.DOB |date :'longDate'}} --> LongDate</div>
+<div>{{user.DOB |date :'fullDate'}} --> FullDate</div>
+<div>{{user.DOB |date :'shortTime'}} --> ShortTime</div>
+<div>{{user.DOB |date :'mediumTime'}} --> MediumTime</div>
+<div>{{user.DOB |date :'longTime'}} --> LongTime</div>
+<div>{{user.DOB |date :'fullTime'}} --> FullTime</div>
+
+
+<br>
+<div> {{user.salary |currency:'INR'}}</div>
+<div> {{user.salary |currency:'INR':'INR'}}</div>
+<div> {{user.salary |currency:'INR':'INR':'4.0-1'}}</div>
+<div> {{user.salary |currency:'CAD':'symbol-narrow'}}</div>
+<div> {{user.salary |currency:'CLP'}}</div>
+
+<div>
+    {{user |json}}
+</div>
+
+<h4>Chaining Pipes</h4>
+
+<div>
+    {{user.DOB |date :'MMMM'| uppercase}}
+</div>
+<!-- use parentheses in the third operand so the pipe applies to the whole expression -->
+{{ (true ? 'true' : 'false') | uppercase }}
+
+<p>The hero's birthday is {{ birthday | date }}</p>

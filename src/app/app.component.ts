@@ -10,7 +10,7 @@ export class AppComponent {
   clsName ='one'
   clsName2 ='two'
 
-
+  color = ''
   colorVal = 'blue'; // dynamic value to DOM elements
   users =[
     {userId:10, firstName:'jenny'},

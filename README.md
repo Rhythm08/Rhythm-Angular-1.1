@@ -104,6 +104,101 @@
     <img src = "src/assets/images/ngIf-2.png">
     <img src = "src/assets/images/ngIf-3.png">
 
+# Attribute Directives
+- Change the appearance or behavior of DOM elements and Angular components with attribute directives.
+- NgNonBindable
+- NgStyle
+- @Input()
+- @HostListener()
+- @HostBinding()
+- @Directive()
+<img src ="src/assets/images/attribute.png" >
+<img src ="src/assets/images/attribute-1.png" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Pipes
+- Pipes are used to transform the data
+- <h2>There are build-in pipes</h2>
+  - lowercase
+  - Percent
+  - Currency
+  - Date
+  - Json
+  - Decimal
+  - Uppercase
+  - Slice
+  - Titlecase
+  - Async
+  - Custom Pipes
+  - Pipe Chaining
+  - Pipe Parameters
+  - Pipe Fallback
+  - Pipe Impure
+  - Pipe Pure
+  - Pipe Memoization
+  - Pipe Memoization with TrackBy
+  - Pipe Memoization with TrackBy and Async
+  - Pipe Memoization with TrackBy and Async and OnPush
+  - Pipe Memoization with TrackBy and Async and OnPush and ChangeDetectionStrategy
+  - Pipe Memoization with TrackBy and Async and OnPush and ChangeDetectionStrategy and ChangeDetectorRef
+  - Pipe Memoization with TrackBy and Async and OnPush and ChangeDetectionStrategy and ChangeDetectorRef and OnChanges
+  - Pipe Memoization with TrackBy and Async and OnPush and ChangeDetectionStrategy and ChangeDetectorRef and OnChanges and DoCheck
+  - Pipe Memoization with TrackBy and Async and OnPush and ChangeDetectionStrategy and ChangeDetectorRef and OnChanges and DoCheck and AfterContentInit
+
+- <h2>Parameterized Pipe</h2>
+- We can pass one or more parameters to pipe
+- We pass parameters using the colon(:) symbol
+  - Currency
+    - Currency Symbol
+    - Currency Code
+    - Currency Digital variations
+  - Date
+    - 'short': equivalent to 'M/d/yy, h:mm a' (e.g. 6/15/15, 9:03 AM).
+    - 'medium': equivalent to 'MMM d, y, h:mm:ss a' (e.g. Jun 15, 2015, 9:03:01 AM).
+    - 'long': equivalent to 'MMMM d, y, h:mm:ss a z' (e.g. June 15, 2015 at 9:03:01 AM GMT+1).
+    - 'full': equivalent to 'EEEE, MMMM d, y, h:mm:ss a zzzz' (e.g. Friday, June 15, 2015 at 9:03:01 AM GMT+01:00).
+    - 'shortDate': equivalent to 'M/d/yy' (e.g. 6/15/15).
+    - 'mediumDate': equivalent to 'MMM d, y' (e.g. Jun 15, 2015).
+    - 'longDate': equivalent to 'MMMM d, y' (e.g. June 15, 2015).
+    - 'fullDate': equivalent to 'EEEE, MMMM d, y' (e.g. Friday, June 15, 2015).
+    - 'shortTime': equivalent to 'h:mm a' (e.g. 9:03 AM).
+    - 'mediumTime': equivalent to 'h:mm:ss a' (e.g. 9:03:01 AM).
+    - 'longTime': equivalent to 'h:mm:ss a z' (e.g. 9:03:01 AM GMT+1).
+    - 'fullTime': equivalent to 'h:mm:ss a zzzz' (e.g. 9:03:01 AM GMT+01:00).
+
+- <h2>Chaining Pipes</h2>
+    - Using multiple pipes on a data input is called as Chaining Pipes
+    - We can pass one or more pipes to a data input
+       - {{dob| date|uppercase}}
+       
+  
 
 
 
