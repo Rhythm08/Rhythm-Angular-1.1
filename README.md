@@ -117,32 +117,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Pipes
 - Pipes are used to transform the data
 - <h2>There are build-in pipes</h2>
@@ -171,6 +145,10 @@
   - Pipe Memoization with TrackBy and Async and OnPush and ChangeDetectionStrategy and ChangeDetectorRef and OnChanges
   - Pipe Memoization with TrackBy and Async and OnPush and ChangeDetectionStrategy and ChangeDetectorRef and OnChanges and DoCheck
   - Pipe Memoization with TrackBy and Async and OnPush and ChangeDetectionStrategy and ChangeDetectorRef and OnChanges and DoCheck and AfterContentInit
+  <img src="src/assets/images/pipes-0.png">
+  <img src="src/assets/images/pipes-1.png">
+  <img src="src/assets/images/pipes-2.png">
+
 
 - <h2>Parameterized Pipe</h2>
 - We can pass one or more parameters to pipe
